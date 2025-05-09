@@ -13,7 +13,7 @@ func main() {
 	m.HandleFunc("/", handlePage)
 
 	const addr = ":8080"
-	// Create a server instance and init the `Server` structs fields
+	// Create a server instance and initialize the `Server` struct fields
 	srv := http.Server{
 		Handler:      m,
 		Addr:         addr,
