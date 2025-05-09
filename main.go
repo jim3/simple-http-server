@@ -21,8 +21,7 @@ func main() {
 		ReadTimeout:  30 * time.Second,
 	}
 
-	// this blocks forever, until the server
-	// has an unrecoverable error
+	// this blocks forever, until the server has an unrecoverable error
 	fmt.Println("server started on ", addr)
 	err := srv.ListenAndServe()
 	log.Fatal(err)
