@@ -1,7 +1,3 @@
-```bash
-#! /go/get/it
+### Simple HTTP Go Server
 
-# ===========================
-### simple-http-server
-# ===========================
-
+Used to quickly set up a local web server for development or testing purposes.
